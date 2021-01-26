@@ -1,0 +1,27 @@
+
+Problem:
+
+    
+The function 'doubler' takes a word as input.  
+It should create and print
+    
+a string, where each character in the string is doubled, for example:
+
+    
+"test" -> "tteesstt"
+
+
+Tests:
+
+    
+>>> doubler("test")
+    
+tteesstt
+    
+>>> doubler("original")
+    
+oorriiggiinnaall
+    
+>>> doubler("hihihi")
+    
+hhiihhiihhii

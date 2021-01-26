@@ -1,0 +1,29 @@
+
+Problem:
+
+    
+The function 'test_case' takes a string and should
+    
+return whether that string is upper case, lower
+    
+case or a mixture of upper and lower case 
+    
+characters. It should print "Upper", "Lower" or
+    
+"Mixed".
+
+
+Tests:
+
+    
+>>> test_case("a lower case string")
+    
+Lower
+    
+>>> test_case("AN UPPER CASE STRING")
+    
+Upper
+    
+>>> test_case("A mixed CASE string")
+    
+Mixed
