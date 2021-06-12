@@ -21,6 +21,9 @@ Each folder in this repository contains a text file containing the problems and 
 The problems were originally set using python, so the READMEs provide helpful hints in this language. 
 Not all problem sets contain solutions as my originals have since been lost to time but in I will add new solutions in due course as well as solutions in other languages.
 
+These tasks are designed to get a grasp of coding.
+They are not designed for production code and as such the solutions will include unhandled exceptions and will not cover all cases.
+
 ## License and Attributions
 These problem sets were all provided under the MIT license by their original creator, and my solutions for those problems are also provided under the MIT License.
 This license is available to be viewed within this [repository](LICENSE) and [here](https://opensource.org/licenses/MIT)

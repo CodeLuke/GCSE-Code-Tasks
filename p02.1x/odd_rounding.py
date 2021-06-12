@@ -1,4 +1,4 @@
-
+"""
 Problem:
 
    
@@ -34,21 +34,36 @@ Tests:
 
     
 >>> odd_rounding(573, 10)
-    
 570
     
 >>> odd_rounding(572, 10)
-    
 570
     
 >>> odd_rounding(573, 100)
-    
 500
     
 >>> odd_rounding(429, 100)
-    
 500
     
 >>> odd_rounding(790, 10)
-    
 790
+"""
+import doctest, math
+def run_tests():
+    doctest.testmod(verbose=True)
+
+def odd_rounding(num, tens):
+    # Number to check
+    num_to_check = int(str(num // tens)[-1])
+    result = None
+    if num_to_check == 0 or num_to_check % 2 == 1:
+        # Replace trailing digits with 0
+        result = (num // (tens)) * (tens)
+    else:
+        # Increment number and then add trailing 0s
+        result = (num // (tens) + 1) * (tens)
+
+    print(result)
+
+if __name__ == "__main__":
+    run_tests()
