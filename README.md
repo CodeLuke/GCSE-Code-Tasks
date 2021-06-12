@@ -25,4 +25,4 @@ Not all problem sets contain solutions as my originals have since been lost to t
 These problem sets were all provided under the MIT license by their original creator, and my solutions for those problems are also provided under the MIT License.
 This license is available to be viewed within this [repository](LICENSE) and [here](https://opensource.org/licenses/MIT)
 
-Many thanks to the original writer of these problems and the excellent teacher that is @andrewcharlton
+Many thanks to the original writer of these problems and the excellent teacher that is [@andrewcharlton](https://www.github.com/andrewcharlton)
