@@ -1,0 +1,73 @@
+﻿"""
+Problem:
+
+    
+A cinema has different prices depending on the day of the week,
+    
+and the age of the customer.
+
+    
+On a saturday, it costs £6.50 for everyone.
+    
+    
+On other days, it costs:
+        
+- £4.00 for OAPS (65 or over)
+        
+- £3.00 for Juniors (10 or under)
+        
+- £5.00 for everyone else
+
+    
+The function price, takes two inputs: the day of the week, and the
+    
+age of the customer.  It should print the required price.
+
+    
+The day of the week will always be provided in title case.
+
+Tests:
+
+    
+>>> price("Saturday", 25)
+£6.50
+    
+>>> price("Saturday", 72)
+£6.50
+    
+>>> price("Saturday", 4)
+£6.50
+    
+>>> price("Monday", 8)
+£3.00
+    
+>>> price("Tuesday", 45)
+£5.00
+    
+>>> price("Wednesday", 65)
+£4.00
+    
+>>> price("Thursday", 80)
+£4.00
+    
+>>> price("Friday", 10)
+£3.00
+"""
+import doctest
+def run_tests():
+    doctest.testmod(verbose=True)
+
+def price(day_of_week, age):
+
+    if day_of_week == "Saturday":
+        print("£6.50")
+    else:
+        if age >= 65:
+            print("£4.00")
+        elif age <= 10:
+            print("£3.00")
+        else:
+            print("£5.00")
+
+if __name__ == "__main__":
+    run_tests()
