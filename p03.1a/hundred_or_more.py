@@ -18,5 +18,22 @@ Tests:
     761995
 
 """
+import doctest
+def run_tests():
+    doctest.testmod(verbose=True)
+
+def add_to_n(n):
+    total = 0
+    for i in range(n + 1):
+        total += i
+    print(total)
+    
+    """One line version
+    
+    print(sum(range(n+1)))
+    """
+
+if __name__ == "__main__":
+    run_tests()
 
 

@@ -19,3 +19,17 @@ Test:
     7 x 9 = 63
 
 """
+
+# Use this to test your solution. Don't edit it!
+import doctest
+def run_tests():
+    doctest.testmod(verbose=True)
+
+
+# Edit this code
+def print_nines():
+    for i in range(1,8):
+        print(i ,"x", 9, "=", i*9)
+
+if __name__ == "__main__":
+    run_tests()
