@@ -19,7 +19,7 @@ Git is one of the best tools someone can learn, it has saved my skin on many an 
 
 Each folder in this repository contains a text file containing the problems and examples, the README which was in the original repository and any solutions to the problem that I have created.
 The problems were originally set using python, so the READMEs provide helpful hints in this language. 
-Not all problem sets contain solutions as my originals have since been lost to time but in I will add new solutions in due course as well as solutions in other languages.
+All problem sets contain solutions in python. In due time I will also add solutions in other languages.
 
 These tasks are designed to get a grasp of coding.
 They are not designed for production code and as such the solutions will include unhandled exceptions and will not cover all cases.
